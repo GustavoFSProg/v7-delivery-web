@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import SearchInput from '../../components/search'
 import styles from '../../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -11,7 +12,7 @@ const Home: NextPage = () => {
           <div className={styles.headerTopLeft}>
             <div className={styles.headerTitle}>Seja Bem-Vindo (a) 👋</div>
 
-            <div className={styles.headerSubTitle}>Oque Deseja pra hoje?</div>
+            <div className={styles.headerSubTitle}>O que Deseja pra hoje?</div>
           </div>
 
           <div className={styles.headerTopRight}>
@@ -28,7 +29,10 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className={styles.headerBottom}>Busca</div>
+        <div className={styles.headerBottom}>
+
+          <SearchInput />
+        </div>
       </header>
     </div>
   )

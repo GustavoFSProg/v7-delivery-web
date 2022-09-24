@@ -1,0 +1,33 @@
+.container {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 60px;
+}
+
+.input {
+
+  border: 0;
+  outline: 0;
+  width: 200px;
+  height: 34px;
+  /* background: green; */
+  margin-left: 13px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33.6px;
+}
+
+.botao {
+  /* background: orange; */
+  width: 48px;
+  height: 48px;
+  border-radius: 5px;
+  margin-left: -110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

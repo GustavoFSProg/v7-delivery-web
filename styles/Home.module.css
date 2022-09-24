@@ -44,4 +44,18 @@
 }
 
 .headerBottom {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 380px;
+    height: 60px;
+    flex-direction: row;
+    /* background: orange; */
 }
+              
+                                                                                                                                                                                                                                                                                                                                .botao {
+                                                                                                                                                                                                                                                                                                                                  background: green;
+                                                                                                                                                                                                                                                                                                                                  width: 48px;
+                                                                                                                                                                                                                                                                                                                                  height: 48px;
+                                                                                                                                                                                                                                                                                                                                }
