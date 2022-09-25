@@ -42,7 +42,7 @@ const Home: NextPage = () => {
               style={{
                 // top: '297px',
                 // left: '54px',
-                // paddingBottom: '1px',
+                paddingBottom: '2px',
                 paddingLeft: '14px',
                 paddingRight: '14px',
                   display: 'flex',
