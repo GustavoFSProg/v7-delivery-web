@@ -17,21 +17,50 @@ const Home: NextPage = () => {
 
           <div className={styles.headerTopRight}>
             <div className={styles.menuButtom}>
-              <div className={styles.menuButtomLines}>
-
-            </div>
-              <div className={styles.menuButtomLines}>
-
-              </div>
-              <div className={styles.menuButtomLines}>
-
-            </div>
+              <div className={styles.menuButtomLines}></div>
+              <div className={styles.menuButtomLines}></div>
+              <div className={styles.menuButtomLines}></div>
             </div>
           </div>
         </div>
         <div className={styles.headerBottom}>
-
           <SearchInput />
+        </div>
+        <div className={styles.middleContainer}>
+          <div
+            style={{
+              width: '65px',
+              height: '25px',
+              background: 'rgba(251, 148, 0, 1)',
+              borderRadius: '4px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
+            <p
+              style={{
+                // top: '297px',
+                // left: '54px',
+                paddingBottom: '2px',
+                paddingLeft: '3px',
+                paddingRight: '3px',
+                  display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+                fontFamily: 'Inter',
+                fontWeight: 'bold',
+                color: 'rgba(249, 249, 251, 1)',
+                 width: '49px',
+                height: '12px',
+              fontSize: '11px',
+              
+              }}
+            >
+               Promoção
+            </p>
+           
+          </div>
         </div>
       </header>
     </div>
