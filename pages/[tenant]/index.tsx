@@ -68,6 +68,22 @@ const Home: NextPage = () => {
                 Dose Dupla.
             </p>
             </div>
+
+              <div className={styles.valorContainer}>
+
+
+            <p className={styles.valorPromo}>
+                2 Old Burguer pro apenas: 
+            </p>
+            </div>
+
+              <div className={styles.precoContainer}>
+
+
+            <p className={styles.precoPromo}>
+                R$ 35,50
+            </p>
+            </div>
            
           </div>
         </div>
