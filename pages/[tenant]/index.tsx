@@ -42,9 +42,9 @@ const Home: NextPage = () => {
               style={{
                 // top: '297px',
                 // left: '54px',
-                paddingBottom: '2px',
-                paddingLeft: '3px',
-                paddingRight: '3px',
+                // paddingBottom: '1px',
+                paddingLeft: '14px',
+                paddingRight: '14px',
                   display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
