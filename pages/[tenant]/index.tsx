@@ -30,7 +30,7 @@ const Home: NextPage = () => {
           <div
             style={{
               width: '65px',
-              height: '25px',
+              height: '26px',
               background: 'rgba(251, 148, 0, 1)',
               borderRadius: '4px',
               display: 'flex',
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
               style={{
                 // top: '297px',
                 // left: '54px',
-                paddingBottom: '2px',
+                // paddingBottom: '2px',
                 paddingLeft: '14px',
                 paddingRight: '14px',
                   display: 'flex',
