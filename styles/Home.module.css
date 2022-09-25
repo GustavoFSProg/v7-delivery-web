@@ -85,7 +85,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 85px;
+  margin-top: 87px;
   margin-left: 0px;
   position: absolute;
   /* background: red; */
@@ -109,7 +109,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 85px;
+  margin-top: 87px;
   margin-left: 0px;
   position: absolute;
   /* background: red; */
@@ -128,4 +128,35 @@
   line-height: 38.73px;
   margin-top: 115px;
   font-weight: bolder;
+}
+.imageContainer {
+  /* background: blue; */
+  width: 240px;
+  height: 236px;
+  border-radius: 8px;
+  display: flex;
+  margin-left: 70px;
+  margin-top: -50px;
+  justify-content: right;
+}
+
+.imageContainerInside {
+  background: rgba(251, 151, 7, 1);
+  width: 111px;
+  height: 190px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  z-index: 44;
+
+  margin-left: 200px;
+}
+
+.imagem {
+  margin-left: -240px;
+  width: 191px;
+  height: 118px;
+  z-index: 1000;
+  overflow-x: hidden;
 }

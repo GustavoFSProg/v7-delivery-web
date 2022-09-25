@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import SearchInput from '../../components/search'
 import styles from '../../styles/Home.module.css'
+import burguerImage from '../../assets/Card-burger.png'
+
 
 const Home: NextPage = () => {
   return (
@@ -86,7 +88,16 @@ const Home: NextPage = () => {
             </div>
            
           </div>
+          
+ 
+          <div className={styles.imageContainer}>
+            {/* <div className={styles.imageContainerInside} > */}
+         
+         
+            <Image className={styles.imagem} src={burguerImage} alt="burguer image" />    
+          
         </div>
+          </div>
       </header>
     </div>
   )
