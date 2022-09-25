@@ -35,30 +35,39 @@ const Home: NextPage = () => {
               borderRadius: '4px',
               display: 'flex',
               alignItems: 'center',
-              justifyContent: 'center'
+
             }}
           >
             <p
               style={{
                 // top: '297px',
-                // left: '54px',
-                // paddingBottom: '2px',
-                paddingLeft: '14px',
-                paddingRight: '14px',
+                marginLeft: '8px',
+                paddingBottom: '1px',
+                paddingLeft: '15px',
+                paddingRight: '15px',
                   display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
                 fontFamily: 'Inter',
                 fontWeight: 'bold',
-                color: 'rgba(249, 249, 251, 1)',
                  width: '49px',
                 height: '12px',
-              fontSize: '11px',
+                fontSize: '11px',
+              color: 'white',
               
               }}
             >
-               Promoção
+            
+              
+              Promoção
             </p>
+            <div className={styles.titleContainer}>
+
+
+            <p className={styles.titleP}>
+                Dose Dupla.
+            </p>
+            </div>
            
           </div>
         </div>
