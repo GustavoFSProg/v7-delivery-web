@@ -160,3 +160,33 @@
   z-index: 1000;
   overflow-x: hidden;
 }
+.containerLeft {
+  width: 178px;
+  height: 178px;
+  /* background: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 17px;
+}
+
+.containerRight {
+  width: 178px;
+  height: 178px;
+  /* background: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerFotos {
+  display: flex;
+  flex-direction: row;
+}
+
+.GoldenBurguer {
+  /* margin-left: -240px; */
+  width: 180px;
+  height: 218px;
+  /* background: red; */
+}

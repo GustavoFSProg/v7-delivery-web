@@ -4,6 +4,8 @@ import Image from 'next/image'
 import SearchInput from '../../components/search'
 import styles from '../../styles/Home.module.css'
 import burguerImage from '../../assets/Card-burger.png'
+import TexasBurguer from '../../assets/TexasBurger.png'
+import GoldenBurguer from '../../assets/GoldenBurger.png'
 
 
 const Home: NextPage = () => {
@@ -96,8 +98,22 @@ const Home: NextPage = () => {
          
             <Image className={styles.imagem} src={burguerImage} alt="burguer image" />    
           
-        </div>
           </div>
+          
+        </div>
+        <div className={styles.containerFotos}>
+
+          <div className={styles.containerLeft}>
+            <Image className={styles.TexasBurguer} src={TexasBurguer} alt="burguer image" />    
+            
+
+        </div>
+
+           <div className={styles.containerRight}>
+            <Image className={styles.GoldenBurguer} src={GoldenBurguer} alt="burguer image" />    
+
+        </div>
+        </div>
       </header>
     </div>
   )
