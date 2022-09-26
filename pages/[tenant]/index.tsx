@@ -10,6 +10,12 @@ import MonsterBurguer from '../../assets/MonsterBurger.png'
 import OldBurguer from '../../assets/OldBurger.png'
 
 const Home: NextPage = () => {
+  
+  function handleSerach(searchValue: String) {
+      console.log(`Voce esta buscando por: ${searchValue}`)
+      alert(`Voce esta buscando por: ${searchValue}`)
+  }
+
   return (
     <div className={styles.container}>
       <header className={styles.header}>
@@ -29,7 +35,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className={styles.headerBottom}>
-          <SearchInput />
+          <SearchInput onSearch={handleSerach} mainColor='#fb9400'/>
         </div>
         <div className={styles.middleContainer}>
           <div
