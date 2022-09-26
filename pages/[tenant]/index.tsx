@@ -8,6 +8,7 @@ import TexasBurguer from '../../assets/TexasBurger.png'
 import GoldenBurguer from '../../assets/GoldenBurger.png'
 import MonsterBurguer from '../../assets/MonsterBurger.png'
 import OldBurguer from '../../assets/OldBurger.png'
+import Banner from '../../components/banner'
 
 const Home: NextPage = () => {
   
@@ -38,54 +39,11 @@ const Home: NextPage = () => {
           <SearchInput onSearch={handleSerach} mainColor='#fb9400'/>
         </div>
         <div className={styles.middleContainer}>
-          <div
-            style={{
-              width: '65px',
-              height: '26px',
-              background: 'rgba(251, 148, 0, 1)',
-              borderRadius: '4px',
-              display: 'flex',
-              alignItems: 'center',
-            }}
-          >
-            <p
-              style={{
-                // top: '297px',
-                marginLeft: '8px',
-                paddingBottom: '1px',
-                paddingLeft: '15px',
-                paddingRight: '15px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontFamily: 'Inter',
-                fontWeight: 'bold',
-                width: '49px',
-                height: '12px',
-                fontSize: '11px',
-                color: 'white',
-              }}
-            >
-              Promoção
-            </p>
-            <div className={styles.titleContainer}>
-              <p className={styles.titleP}>Dose Dupla.</p>
-            </div>
+         
+         
+      <Banner />
 
-            <div className={styles.valorContainer}>
-              <p className={styles.valorPromo}>2 Old Burguer pro apenas:</p>
-            </div>
-
-            <div className={styles.precoContainer}>
-              <p className={styles.precoPromo}>R$ 35,50</p>
-            </div>
-          </div>
-
-          <div className={styles.imageContainer}>
-            {/* <div className={styles.imageContainerInside} > */}
-
-            <Image className={styles.imagem} src={burguerImage} alt="burguer image" />
-          </div>
+        
         </div>
         <div className={styles.containerFotos}>
           <div className={styles.containerLeft}>
@@ -129,6 +87,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </header>
+
     </div>
   )
 }
