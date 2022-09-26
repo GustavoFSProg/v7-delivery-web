@@ -98,17 +98,17 @@ const Home: NextPage = () => {
           <div className={styles.containerRight}>
             <Image className={styles.GoldenBurguer} src={GoldenBurguer} alt="burguer image" />
 
-              {/* <span className={styles.paragraphTradicionalDois}>
+              <span className={styles.paragraphTradicionalDois}>
               Tradicional
             </span>
 
-             <span className={styles.texasBurguer}>
-              Texas Burguer
+             <span className={styles.goldenBurguerTitle}>
+              Golden Burguer
             </span>
 
               <span className={styles.burguerPrice}>
               R$ 30,00
-            </span> */}
+            </span>
           </div>
         </div>
       </header>
