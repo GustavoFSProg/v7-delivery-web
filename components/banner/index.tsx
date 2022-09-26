@@ -1,8 +1,8 @@
 import styles from './styles.module.css'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import banner01 from '../../assets/banner - promoção 01.png'
-import banner02 from '../../assets/banner-02.png'
+import banner01 from '../../assets/banner-promoção01.png'
+// import banner02 from '../../assets/banner-02.png'
 
 // Import Swiper styles
 import 'swiper/css'
