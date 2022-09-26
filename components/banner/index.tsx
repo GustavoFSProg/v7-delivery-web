@@ -1,7 +1,7 @@
 import styles from './styles.module.css'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import banner01 from '../../assets/banner-01.png'
+import banner01 from '../../assets/banner - promoção 01.png'
 import banner02 from '../../assets/banner-02.png'
 
 // Import Swiper styles
@@ -11,7 +11,9 @@ import Image from 'next/image'
 function Banner() {
   return (
     <div className={styles.container}>
-      <Swiper slidesPerView={1}
+     <Image src={banner01} alt="banner 1"  />
+
+      {/* <Swiper slidesPerView={1}
       >
         <SwiperSlide>
           <Image src={banner01} alt="banner 1" />
@@ -20,7 +22,7 @@ function Banner() {
           <Image src={banner02} alt="banner 2" />
         </SwiperSlide>
         
-      </Swiper>
+      </Swiper> */}
     </div>
   )
 }
