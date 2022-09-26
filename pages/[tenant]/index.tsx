@@ -7,7 +7,6 @@ import burguerImage from '../../assets/Card-burger.png'
 import TexasBurguer from '../../assets/TexasBurger.png'
 import GoldenBurguer from '../../assets/GoldenBurger.png'
 
-
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -39,7 +38,6 @@ const Home: NextPage = () => {
               borderRadius: '4px',
               display: 'flex',
               alignItems: 'center',
-
             }}
           >
             <p
@@ -49,70 +47,69 @@ const Home: NextPage = () => {
                 paddingBottom: '1px',
                 paddingLeft: '15px',
                 paddingRight: '15px',
-                  display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
                 fontFamily: 'Inter',
                 fontWeight: 'bold',
-                 width: '49px',
+                width: '49px',
                 height: '12px',
                 fontSize: '11px',
-              color: 'white',
-              
+                color: 'white',
               }}
             >
-            
-              
               Promoção
             </p>
             <div className={styles.titleContainer}>
-
-
-            <p className={styles.titleP}>
-                Dose Dupla.
-            </p>
+              <p className={styles.titleP}>Dose Dupla.</p>
             </div>
 
-              <div className={styles.valorContainer}>
-
-
-            <p className={styles.valorPromo}>
-                2 Old Burguer pro apenas: 
-            </p>
+            <div className={styles.valorContainer}>
+              <p className={styles.valorPromo}>2 Old Burguer pro apenas:</p>
             </div>
 
-              <div className={styles.precoContainer}>
-
-
-            <p className={styles.precoPromo}>
-                R$ 35,50
-            </p>
+            <div className={styles.precoContainer}>
+              <p className={styles.precoPromo}>R$ 35,50</p>
             </div>
-           
           </div>
-          
- 
+
           <div className={styles.imageContainer}>
             {/* <div className={styles.imageContainerInside} > */}
-         
-         
-            <Image className={styles.imagem} src={burguerImage} alt="burguer image" />    
-          
+
+            <Image className={styles.imagem} src={burguerImage} alt="burguer image" />
           </div>
-          
         </div>
         <div className={styles.containerFotos}>
-
           <div className={styles.containerLeft}>
-            <Image className={styles.TexasBurguer} src={TexasBurguer} alt="burguer image" />    
-            
+            <Image className={styles.TexasBurguer} src={TexasBurguer} alt="burguer image" />
+            <span className={styles.paragraphTradicional}>
+              Tradicional
+            </span>
 
-        </div>
+             <span className={styles.texasBurguer}>
+              Texas Burguer
+            </span>
 
-           <div className={styles.containerRight}>
-            <Image className={styles.GoldenBurguer} src={GoldenBurguer} alt="burguer image" />    
+              <span className={styles.burguerPrice}>
+              R$ 30,00
+            </span>
+          </div>
 
-        </div>
+          <div className={styles.containerRight}>
+            <Image className={styles.GoldenBurguer} src={GoldenBurguer} alt="burguer image" />
+
+              {/* <span className={styles.paragraphTradicionalDois}>
+              Tradicional
+            </span>
+
+             <span className={styles.texasBurguer}>
+              Texas Burguer
+            </span>
+
+              <span className={styles.burguerPrice}>
+              R$ 30,00
+            </span> */}
+          </div>
         </div>
       </header>
     </div>
