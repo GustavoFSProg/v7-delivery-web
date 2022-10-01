@@ -55,7 +55,7 @@
 }
 
 .middleContainer {
-  width: 380px;
+  width: 500px;
   height: 190px;
   /* background: gray; */
   margin-top: 25px;
@@ -265,5 +265,6 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   margin: 0 24px 0 24px;
+  margin-top: 88px;
   /* margin-left: -30px; */
 }
