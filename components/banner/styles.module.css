@@ -1,5 +1,10 @@
 .container {
-  margin: 24px;
+  /* margin: 24px; */
   margin-left: -29px;
-    margin-top: -45px;
+    margin-top: 105px;
+      width: 800px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
 }
