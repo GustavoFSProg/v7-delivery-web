@@ -9,6 +9,7 @@ import GoldenBurguer from '../../assets/GoldenBurger.png'
 import MonsterBurguer from '../../assets/MonsterBurger.png'
 import OldBurguer from '../../assets/OldBurger.png'
 import Banner from '../../components/banner'
+import ProductItem from '../../components/ProductItem'
 
 const Home: NextPage = () => {
   
@@ -41,50 +42,17 @@ const Home: NextPage = () => {
         <div className={styles.middleContainer}>
          
          
-      <Banner />
+          <Banner />
+          
 
         
         </div>
-        <div className={styles.containerFotos}>
-          <div className={styles.containerLeft}>
-            <Image className={styles.TexasBurguer} src={TexasBurguer} alt="burguer image" />
-            <span className={styles.paragraphTradicional}>Tradicional</span>
-
-            <span className={styles.texasBurguer}>Texas Burguer</span>
-
-            <span className={styles.burguerPrice}>R$ 25,00</span>
-          </div>
-
-          <div className={styles.containerRight}>
-            <Image className={styles.GoldenBurguer} src={GoldenBurguer} alt="burguer image" />
-
-            <span className={styles.paragraphTradicionalDois}>Tradicional</span>
-
-            <span className={styles.goldenBurguerTitle}>Golden Burguer</span>
-
-            <span className={styles.burguerPrice}>R$ 28,00</span>
-          </div>
-        </div>
-
-        <div className={styles.containerFotos} style={{marginTop: '20px'}}>
-          <div className={styles.containerLeft}>
-            <Image className={styles.TexasBurguer} src={MonsterBurguer} alt="burguer image" />
-            <span className={styles.paragraphTradicional}>Tradicional</span>
-
-            <span className={styles.texasBurguer}>Texas Burguer</span>
-
-            <span className={styles.burguerPrice}>R$ 25,00</span>
-          </div>
-
-          <div className={styles.containerRight}>
-            <Image className={styles.GoldenBurguer} src={OldBurguer} alt="burguer image" />
-
-            <span className={styles.paragraphTradicionalDois}>Tradicional</span>
-
-            <span className={styles.goldenBurguerTitle}>Golden Burguer</span>
-
-            <span className={styles.burguerPrice}>R$ 27,00</span>
-          </div>
+        <div className={styles.grid}>
+          <ProductItem /> 
+          <ProductItem /> 
+          <ProductItem /> 
+          <ProductItem /> 
+          
         </div>
       </header>
 

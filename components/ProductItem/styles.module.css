@@ -1,4 +1,20 @@
 .container {
+  margin: 24px;
+  margin-left: 0;
+  margin-top: 15px;
+}
+
+.head {
+  height: 90px;
+}
+
+.info {
+  height: 90px;
+  /* background: green; */
+  margin-top: 20px;
+}
+
+.container {
   background-color: #ffff;
 }
 
@@ -14,6 +30,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .headerTopLeft {}
 
 .headerTitle {
@@ -30,6 +47,7 @@
 }
 
 .headerTopRight {}
+
 .menuButtom {
   width: 18px;
   height: 16px;
@@ -47,11 +65,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-    margin-top: 30px;
-    width: 380px;
-    height: 60px;
-    flex-direction: row;
-    /* background: orange; */
+  margin-top: 30px;
+  width: 380px;
+  height: 60px;
+  flex-direction: row;
+  /* background: orange; */
 }
 
 .middleContainer {
@@ -174,6 +192,7 @@
   justify-content: center;
   margin-right: 17px;
   margin-left: -32px;
+  margin-top: -40px
 }
 
 .containerRight {
@@ -259,11 +278,4 @@
   margin-left: 115px;
   width: 200px;
   margin-top: 6px;
-}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  margin: 0 24px 0 24px;
-  /* margin-left: -30px; */
 }
