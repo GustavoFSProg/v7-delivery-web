@@ -12,10 +12,9 @@ import Banner from '../../components/banner'
 import ProductItem from '../../components/ProductItem'
 
 const Home: NextPage = () => {
-  
   function handleSerach(searchValue: String) {
-      console.log(`Voce esta buscando por: ${searchValue}`)
-      alert(`Voce esta buscando por: ${searchValue}`)
+    console.log(`Voce esta buscando por: ${searchValue}`)
+    alert(`Voce esta buscando por: ${searchValue}`)
   }
 
   return (
@@ -37,25 +36,18 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className={styles.headerBottom}>
-          <SearchInput onSearch={handleSerach} mainColor='#fb9400'/>
+          <SearchInput onSearch={handleSerach} mainColor="#fb9400" />
         </div>
         <div className={styles.middleContainer}>
-         
-         
           <Banner />
-          
-
-        
         </div>
         <div className={styles.grid}>
-          <ProductItem /> 
-          <ProductItem /> 
-          <ProductItem /> 
-          <ProductItem /> 
-          
+          <ProductItem id="1" image={GoldenBurguer} name="Xis Tudo" category="Tradicional" price="R$ 15,00" />
+          <ProductItem id="2" image={GoldenBurguer} name="Lanche Tudo" category="Tradicional" price="R$ 35,00" />
+          <ProductItem id="3" image={GoldenBurguer} name="Monster Xis" category="Tradicional" price="R$ 25,00" />
+          <ProductItem id="4" image={GoldenBurguer} name="Bak Burguer" category="Tradicional" price="R$ 17,00" />
         </div>
       </header>
-
     </div>
   )
 }

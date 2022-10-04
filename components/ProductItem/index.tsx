@@ -8,12 +8,20 @@ import MonsterBurguer from '../../assets/MonsterBurger.png'
 import OldBurguer from '../../assets/OldBurger.png'
 import Link from 'next/link'
 
-function ProductItem() {
+type PropsTyps ={
+  id: string
+  name: string
+  image: any  
+  category: string
+  price: string
+}
+
+function ProductItem(props: PropsTyps) {
   return (
     <Link href="/b7delivery/product/1" >
     <div className={styles.container}>
       <div className={styles.head}>
-        <Image style={{ marginTop: '15px', marginLeft: '-7px' }} src={imagem} alt="burguer" />
+        <Image style={{ marginTop: '15px', marginLeft: '-7px' }} src={props.image} alt="burguer" />
       </div>
 
       <div className={styles.info}>
@@ -22,11 +30,11 @@ function ProductItem() {
             {/* <Image src={imagem}  alt="burguer"/> */}
 
             {/* <Image className={styles.TexasBurguer} src={TexasBurguer} alt="burguer image" /> */}
-            <span className={styles.paragraphTradicional}>Tradicional</span>
+              <span className={styles.paragraphTradicional}>{props.category}</span>
 
-            <span className={styles.texasBurguer}>Texas Burguer</span>
+            <span className={styles.texasBurguer}>{props.name}</span>
 
-            <span className={styles.burguerPrice}>R$ 25,00</span>
+            <span className={styles.burguerPrice}>{props.price}</span>
           </div>
 
           {/* <div className={styles.containerRight}>
