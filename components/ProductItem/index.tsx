@@ -11,7 +11,9 @@ function ProductItem() {
   return (
     <div className={styles.container}>
       <div className={styles.head}>
-        <Image src={imagem}  alt="burguer"/>
+        
+    
+        <Image style={{marginTop: '15px', marginLeft: '-7px'}} src={imagem}  alt="burguer"/>
       </div>
 
       <div className={styles.info}>
