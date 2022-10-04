@@ -6,21 +6,21 @@ import TexasBurguer from '../../assets/TexasBurger.png'
 import GoldenBurguer from '../../assets/GoldenBurger.png'
 import MonsterBurguer from '../../assets/MonsterBurger.png'
 import OldBurguer from '../../assets/OldBurger.png'
+import Link from 'next/link'
 
 function ProductItem() {
   return (
+    <Link href="/b7delivery/product/1" >
     <div className={styles.container}>
       <div className={styles.head}>
-        
-    
-        <Image style={{marginTop: '15px', marginLeft: '-7px'}} src={imagem}  alt="burguer"/>
+        <Image style={{ marginTop: '15px', marginLeft: '-7px' }} src={imagem} alt="burguer" />
       </div>
 
       <div className={styles.info}>
-          <div className={styles.containerFotos}>
+        <div className={styles.containerFotos}>
           <div className={styles.containerLeft}>
-        {/* <Image src={imagem}  alt="burguer"/> */}
-           
+            {/* <Image src={imagem}  alt="burguer"/> */}
+
             {/* <Image className={styles.TexasBurguer} src={TexasBurguer} alt="burguer image" /> */}
             <span className={styles.paragraphTradicional}>Tradicional</span>
 
@@ -40,7 +40,9 @@ function ProductItem() {
           </div> */}
         </div>
       </div>
-    </div>
+      </div>
+    </Link>
+      
   )
 }
 
