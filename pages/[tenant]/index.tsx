@@ -43,9 +43,9 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.grid}>
           <ProductItem id="1" image={GoldenBurguer} name="Xis Tudo" category="Tradicional" price="R$ 15,00" />
-          <ProductItem id="2" image={GoldenBurguer} name="Lanche Tudo" category="Tradicional" price="R$ 35,00" />
-          <ProductItem id="3" image={GoldenBurguer} name="Monster Xis" category="Tradicional" price="R$ 25,00" />
-          <ProductItem id="4" image={GoldenBurguer} name="Bak Burguer" category="Tradicional" price="R$ 17,00" />
+          <ProductItem id="2" image={TexasBurguer} name="Lanche Tudo" category="Tradicional" price="R$ 35,00" />
+          <ProductItem id="3" image={MonsterBurguer} name="Monster Xis" category="Tradicional" price="R$ 25,00" />
+          <ProductItem id="4" image={OldBurguer} name="Bak Burguer" category="Tradicional" price="R$ 17,00" />
         </div>
       </header>
     </div>
